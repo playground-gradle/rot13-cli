@@ -17,6 +17,7 @@ public class App {
         System.out.println(output);
     }
 
-    public void getGreeting() {
+    public String getGreeting() {
+        return "Hello world";
     }
 }
